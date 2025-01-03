@@ -1,0 +1,26 @@
+.navbar-container {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.brand-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.logo {
+  height: 45px;
+  width: 45px;
+}
+.brand-name{
+    font-size: 1.3rem;
+}
+.login-btn{
+    padding: 7px 20px;
+    border: 1px solid burlywood;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}

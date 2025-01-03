@@ -1,0 +1,17 @@
+.option {
+  display: block;
+  width: 200px;
+  margin: 3px 5px;
+  padding: 5px;
+  border: 1px solid rgb(201, 196, 196);
+
+}
+.option:hover{
+  background: gainsboro;
+}
+.clicked{
+  background: palevioletred;
+}
+.unClicked{
+  background: yellow;
+}

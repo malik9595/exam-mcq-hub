@@ -1,0 +1,15 @@
+.result{
+  background: burlywood;
+  width: 80%;
+  max-width: 450px;
+  margin: auto;
+  padding: 0.5rem 1rem;
+}
+.card div{
+display: flex;
+justify-content: space-between;
+}
+.text-1{
+  text-align: center;
+  font-size: larger;
+}

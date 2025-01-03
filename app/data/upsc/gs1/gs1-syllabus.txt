@@ -1,0 +1,44 @@
+Create 50 mcq for UPSC Exam for
+ General Studies (GS) Paper 1 
+ on the topic "Current events of national
+and international importance (with uptodate information)". Create in javascript array.
+eg {
+    id:1,
+    question: "what is the capital of India?",
+    options: 'Mumbai','Imphal', 'New Delhi','Guwahati',
+    correctIndex:2
+}
+
+Syllabus for GS 1
+
+Current events of national
+and international importance.
+
+History of India and Indian
+National Movement.
+
+Indian and World
+Geography - Physical,
+Social, Economic
+Geography of India and
+the World.
+
+Indian Polity and
+Governance - Constitution,
+Political System, Panchayati
+Raj, Public Policy, Rights
+Issues, etc.
+
+Economic and Social
+Development - Sustainable
+Development, Poverty,
+Inclusion, Demographics,
+Social Sector Initiatives, etc.
+
+General issues on
+Environmental Ecology,
+Biodiversity, and Climate
+Change - that do not require
+subject specialisation
+
+General Science

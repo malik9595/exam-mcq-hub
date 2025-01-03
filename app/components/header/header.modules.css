@@ -1,0 +1,25 @@
+.headerContainer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(194, 192, 192, 0.436);
+    margin-bottom: 2rem;
+    user-select: none;
+    display: flex;
+    gap: 1.5rem;
+
+  }
+  .logo {
+    font-size: x-large;
+    width: 100%;
+  }
+  .navLink{
+    font-size: 1rem;
+  } 
+  .loginBtn{
+    padding: 0.5rem 1.5rem;
+    background: gainsboro;
+    border-radius: 5px;
+    cursor: pointer;
+  }

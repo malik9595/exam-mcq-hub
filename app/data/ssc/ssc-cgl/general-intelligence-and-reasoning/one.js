@@ -1,11 +1,17 @@
 const mcqs = [
+    // check completed
   {
-    id: 1,
-    question: "Which number comes next in the series: 1, 4, 9, 16, ?",
-    options: ["20", "25", "30", "36"],
+    question:
+      "If it is true that 'all cats are animals', and 'some animals are mammals', what can be inferred about cats?",
+    options: [
+      "All cats are mammals",
+      "Some cats are mammals",
+      "No cats are mammals",
+      "Cats are not animals",
+    ],
     correctIndex: 1,
     region:
-      "The series consists of squares of natural numbers: 1², 2², 3², 4², so the next term is 5² = 25.",
+      "From the given statements, it can be inferred that some cats are mammals.",
   },
   {
     id: 2,
@@ -32,11 +38,12 @@ const mcqs = [
   },
   {
     id: 5,
-    question: "Which number comes next in the series: 2, 4, 8, 16, ?",
-    options: ["24", "32", "64", "128"],
-    correctIndex: 1,
+    question:
+      "Which of the following words can be formed using the letters of the word 'listen'?",
+    options: ["Silent", "Enlist", "Tinsel", "Inlets"],
+    correctIndex: 0,
     region:
-      "The series doubles each term: 2 × 2 = 4, 4 × 2 = 8, and so on. The next term is 16 × 2 = 32.",
+      "The letters of the word 'listen' can be rearranged to form the word 'silent'.",
   },
   {
     id: 6,
@@ -66,8 +73,9 @@ const mcqs = [
     question: "Which word comes next in the series: Cat, Bat, Rat, ?",
     options: ["Hat", "Mat", "Pat", "Sat"],
     correctIndex: 1,
-    region: "The series consists of words where the first letter changes alphabetically: C (Cat), B (Bat), R (Rat). The next letter in the alphabet after 'R' is 'M', forming 'Mat'."
-},
+    region:
+      "The series consists of words where the first letter changes alphabetically: C (Cat), B (Bat), R (Rat). The next letter in the alphabet after 'R' is 'M', forming 'Mat'.",
+  },
   {
     id: 10,
     question: "Which number is the odd one out: 3, 5, 7, 9, 11?",
@@ -92,34 +100,37 @@ const mcqs = [
   },
   {
     id: 13,
-    question: "Which city matches the pin code 700001?",
-    options: ["Delhi", "Mumbai", "Chennai", "Kolkata"],
-    correctIndex: 3,
-    region: "700001 is the postal code for Kolkata.",
+    question:
+      "Which of the following words comes next in the series: rose, lily, sunflower, daisy, ?",
+    options: ["Tulip", "Violet", "Poppy", "Orchid"],
+    correctIndex: 0,
+    region: "The series consists of names of flowers.",
   },
   {
     id: 14,
-    question: "What comes next in the series: 3, 6, 12, 24, ?",
-    options: ["36", "48", "60", "72"],
-    correctIndex: 1,
-    region: "Each term doubles the previous one. 24 × 2 = 48.",
+    question:
+      "If 'A' is coded as '1', 'B' is coded as '2', and so on, what is the code for 'HELLO'?",
+    options: ["8 5 12 12 15", "7 5 12 12 15", "8 5 11 11 14", "7 4 11 11 14"],
+    correctIndex: 0,
+    region: "Each letter is coded as its corresponding numerical value.",
   },
   {
     id: 15,
-    question: "Complete the analogy: Finger : Hand :: Toe : ?",
-    options: ["Foot", "Leg", "Shoe", "Sock"],
+    question: "Which of the following shapes can be formed using two cubes?",
+    options: ["Rectangle", "Square", "Triangle", "Circle"],
     correctIndex: 0,
-    region: "Fingers are part of a hand, and toes are part of a foot.",
+    region: "Two cubes can be arranged to form a rectangle.",
   },
   // Continue with a similar structure for all 100 questions
 
   {
     id: 16,
-    question: "Which number comes next in the series: 5, 10, 20, 40, ?",
-    options: ["60", "70", "80", "90"],
-    correctIndex: 2,
+    question:
+      "In a Venn diagram, which of the following represents the intersection of two sets?",
+    options: ["Union", "Intersection", "Difference", "Complement"],
+    correctIndex: 1,
     region:
-      "Each term doubles the previous one: 5 × 2 = 10, 10 × 2 = 20, etc. The next term is 40 × 2 = 80.",
+      "The intersection of two sets represents the elements common to both sets.",
   },
   {
     id: 17,
@@ -159,11 +170,11 @@ const mcqs = [
   },
   {
     id: 22,
-    question: "Which number comes next in the series: 2, 6, 12, 20, ?",
-    options: ["28", "30", "32", "36"],
-    correctIndex: 0,
-    region:
-      "The difference between consecutive terms increases by 2: (6-2=4), (12-6=6), (20-12=8), so next is 20+8=28.",
+    question:
+      "A bakery sells 250 loaves of bread per day. If each loaf costs $2, how much money does the bakery make per day?",
+    options: ["$450", "$500", "$550", "$600"],
+    correctIndex: 1,
+    region: "The bakery makes 250 x $2 = $500 per day.",
   },
   {
     id: 23,
@@ -250,10 +261,17 @@ const mcqs = [
   },
   {
     id: 34,
-    question: "Which number completes the analogy: 4 : 16 :: 6 : ?",
-    options: ["24", "36", "30", "18"],
-    correctIndex: 1,
-    region: "The analogy is based on squares: 4² = 16, 6² = 36.",
+    question:
+      "What is the next step in solving a problem after identifying the root cause?",
+    options: [
+      "Implementing a solution",
+      "Analyzing the data",
+      "Brainstorming ideas",
+      "Defining the problem",
+    ],
+    correctIndex: 0,
+    region:
+      "After identifying the root cause, the next step is to implement a solution.",
   },
   {
     id: 35,
@@ -287,11 +305,12 @@ const mcqs = [
   },
   {
     id: 39,
-    question: "Which number completes the series: 1, 4, 9, 16, ?",
-    options: ["20", "24", "25", "30"],
-    correctIndex: 2,
+    question:
+      "A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. How many days will it take for the snail to reach the top of the well?",
+    options: ["18", "20", "22", "25"],
+    correctIndex: 1,
     region:
-      "The series consists of squares of natural numbers: 1², 2², 3², etc. The next is 5² = 25.",
+      "The snail climbs 3 feet and slips back 2 feet, so it effectively climbs 1 foot per day.",
   },
   {
     id: 40,
@@ -423,11 +442,11 @@ const mcqs = [
   },
   {
     id: 57,
-    question: "Which number comes next in the series: 1, 1, 2, 3, 5, ?",
-    options: ["7", "8", "10", "13"],
-    correctIndex: 1,
+    question: "What is the primary characteristic of emotional intelligence?",
+    options: ["Self-awareness", "Empathy", "Motivation", "Self-regulation"],
+    correctIndex: 0,
     region:
-      "The series is the Fibonacci sequence: each term is the sum of the previous two terms. 3 + 5 = 8.",
+      "Self-awareness is the primary characteristic of emotional intelligence.",
   },
   {
     id: 58,
@@ -746,38 +765,3 @@ const mcqs = [
     region: "Cars are driven, and boats are sailed.",
   },
 ];
-
-// id: 1 - "Which number comes next in the series: 1, 4, 9, 16, ?"
-// id: 39 - "Which number comes next in the series: 1, 4, 9, 16, ?"
-// Question 5:
-
-// id: 5 - "Which number comes next in the series: 2, 4, 8, 16, ?"
-// id: 41 - "Which number comes next in the series: 3, 6, 12, 24, ?"
-// Question 14:
-
-// id: 14 - "What comes next in the series: 3, 6, 12, 24, ?"
-// id: 41 - "Which number comes next in the series: 3, 6, 12, 24, ?"
-// Question 15:
-
-// id: 15 - "Complete the analogy: Finger : Hand :: Toe : ?"
-// id: 68 - "Complete the analogy: Finger : Hand :: Toe : ?"
-// Question 16:
-
-// id: 16 - "Which number comes next in the series: 5, 10, 20, 40, ?"
-// id: 36 - "Complete the series: 10, 20, 40, 80, ?"
-// Question 39:
-
-// id: 1 - "Which number comes next in the series: 1, 4, 9, 16, ?"
-// id: 39 - "Which number comes next in the series: 1, 4, 9, 16, ?"
-// Question 51:
-
-// id: 34 - "Which number completes the analogy: 4 : 16 :: 6 : ?"
-// id: 99 - "Which number completes the analogy: 3 : 9 :: 4 : ?"
-// Question 57:
-
-// id: 57 - "Which number comes next in the series: 1, 1, 2, 3, 5, ?"
-// id: 96 - "Which number comes next in the series: 1, 1, 2, 3, 5, ?"
-// Question 61:
-
-// id: 22 - "Which number comes next in the series: 2, 6, 12, 20, ?"
-// id: 61 - "Which number comes next in the series: 2, 6, 12, 20, ?"

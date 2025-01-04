@@ -1,4 +1,5 @@
 const sscCglQuestions = [
+  // checked
   {
     id: 1,
     question: "Which civilization is known for the Great Bath?",

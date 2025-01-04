@@ -1,4 +1,5 @@
 const questions = [
+  // check all
     {
       id: 1,
       question: "What is the value of 25% of 80?",
@@ -539,12 +540,13 @@ const questions = [
       id: 49,
       question: "What is the next number in the series: 2, 4, 8, 16, 32, ___?",
       options: [
-        "64",
+       
         "48",
         "60",
+        "64",
         "56"
       ],
-      correctIndex: 0,
+      correctIndex: 2,
     },
     {
       id: 50,
@@ -556,9 +558,9 @@ const questions = [
         "300 cm²"
       ],
       correctIndex: 1,
-    }
-  ];
-  const questions = [
+    },
+ 
+
     {
       id: 51,
       question: "What is the value of 20% of 150?",
@@ -597,7 +599,7 @@ const questions = [
       question: "A man invests Rs. 3000 at 5% compound interest per annum. How much interest will he earn after 3 years?",
       options: [
         "Rs. 450",
-        "Rs. 500",
+        "Rs. 550",
         "Rs. 400",
         "Rs. 600"
       ],
@@ -619,8 +621,8 @@ const questions = [
       question: "The average of 10, 20, 30, 40, and x is 30. What is the value of x?",
       options: [
         "40",
-        "50",
         "60",
+        "50",
         "70"
       ],
       correctIndex: 2,
@@ -629,12 +631,12 @@ const questions = [
       id: 57,
       question: "A car travels 240 km at 60 km/h. How long does it take?",
       options: [
-        "4 hours",
         "5 hours",
         "6 hours",
-        "3 hours"
+        "3 hours",
+        "4 hours",
       ],
-      correctIndex: 0,
+      correctIndex: 3,
     },
     {
       id: 58,
@@ -642,7 +644,7 @@ const questions = [
       options: [
         "150 meters",
         "200 meters",
-        "250 meters",
+        "350 meters",
         "300 meters"
       ],
       correctIndex: 2,
@@ -662,12 +664,12 @@ const questions = [
       id: 60,
       question: "If a number is divided by 5, the remainder is 3. What is the number?",
       options: [
-        "13",
-        "18",
-        "23",
+        "11",
+        "15",
+        "25",
         "28"
       ],
-      correctIndex: 1,
+      correctIndex: 3,
     },
     {
       id: 61,
@@ -678,7 +680,7 @@ const questions = [
         "Rs. 950",
         "Rs. 1050"
       ],
-      correctIndex: 0,
+      correctIndex: 1,
     },
     {
       id: 62,
@@ -711,7 +713,7 @@ const questions = [
         "42",
         "48"
       ],
-      correctIndex: 2,
+      correctIndex: 0,
     },
     {
       id: 65,
@@ -733,14 +735,15 @@ const questions = [
         "9 cm",
         "12 cm"
       ],
-      correctIndex: 0,
+      correctIndex: 2,
     },
-    {
+    // 67 is err
+    { 
       id: 67,
-      question: "The sum of the squares of two consecutive integers is 130. What is the larger integer?",
+      question: "The sum of the squares of two consecutive even integers is 100. What is the larger integer?",
       options: [
-        "11",
-        "12",
+        "6",
+        "8",
         "13",
         "14"
       ],
@@ -748,7 +751,7 @@ const questions = [
     },
     {
       id: 68,
-      question: "A man can complete a work in 10 days. How long will he take to complete the same work with 5 men?",
+      question: "A man can complete a work in 10 days. How long will days take to complete the same work by 5 men?",
       options: [
         "2 days",
         "3 days",
@@ -799,14 +802,14 @@ const questions = [
         "Rs. 90",
         "Rs. 110"
       ],
-      correctIndex: 0,
+      correctIndex: 1,
     },
     {
       id: 73,
       question: "A sum of Rs. 5000 is invested at compound interest of 6% per annum. What is the amount after 2 years?",
       options: [
         "Rs. 5630",
-        "Rs. 5760",
+        "Rs. 5760", 
         "Rs. 6400",
         "Rs. 5500"
       ],
@@ -843,11 +846,11 @@ const questions = [
         "Rs. 550",
         "Rs. 600"
       ],
-      correctIndex: 0,
+      correctIndex: 1,
     },
     {
       id: 77,
-      question: "The sum of two numbers is 100, and their ratio is 4:5. What is the smaller number?",
+      question: "The sum of two numbers is 100, and their ratio is 4:6. What is the smaller number?",
       options: [
         "40",
         "45",
@@ -871,12 +874,12 @@ const questions = [
       id: 79,
       question: "A worker can complete a task in 25 days. How long will 5 workers take to complete the same task?",
       options: [
-        "5 days",
         "10 days",
         "15 days",
-        "25 days"
+        "25 days",
+        "5 days"
       ],
-      correctIndex: 1,
+      correctIndex: 3,
     },
     {
       id: 80,
@@ -893,9 +896,9 @@ const questions = [
       id: 81,
       question: "The sum of two numbers is 40, and their difference is 4. What is the larger number?",
       options: [
-        "22",
         "24",
-        "26",
+        "22",
+        "36",
         "30"
       ],
       correctIndex: 1,
@@ -909,7 +912,7 @@ const questions = [
         "Rs. 5000",
         "Rs. 6000"
       ],
-      correctIndex: 0,
+      correctIndex: 1,
     },
     {
       id: 83,
@@ -929,9 +932,9 @@ const questions = [
         "8",
         "10",
         "12",
-        "14"
+        "All the above"
       ],
-      correctIndex: 1,
+      correctIndex: 0,
     },
     {
       id: 85,
@@ -942,7 +945,7 @@ const questions = [
         "Rs. 210",
         "Rs. 150"
       ],
-      correctIndex: 0,
+      correctIndex: 1,
     },
     {
       id: 86,
@@ -959,9 +962,9 @@ const questions = [
       id: 87,
       question: "The sum of the squares of two numbers is 80. What is the value of the larger number?",
       options: [
-        "8",
         "6",
         "10",
+        "8",
         "9"
       ],
       correctIndex: 2,
@@ -986,7 +989,7 @@ const questions = [
         "7 cm",
         "9 cm"
       ],
-      correctIndex: 0,
+      correctIndex: 1,
     },
     {
       id: 90,
@@ -997,10 +1000,8 @@ const questions = [
         "Rs. 250",
         "Rs. 230"
       ],
-      correctIndex: 0,
-    }
-  ];
-  const questions = [
+      correctIndex: 1,
+    },
     {
       id: 91,
       question: "What is the average of the numbers 5, 10, 15, 20, and 25?",
@@ -1050,8 +1051,8 @@ const questions = [
       question: "A train runs at a speed of 72 km/h. How much time will it take to cover a distance of 144 km?",
       options: [
         "1 hour",
-        "2 hours",
         "3 hours",
+        "2 hours",
         "4 hours"
       ],
       correctIndex: 2,
@@ -1098,7 +1099,7 @@ const questions = [
         "8",
         "10"
       ],
-      correctIndex: 3,
+      correctIndex: 0,
     },
     {
       id: 100,

@@ -1,4 +1,5 @@
 const questions = [
+    // check upto 100 one by one
   {
     id: 1,
     question: "Which number comes next in the series: 2, 6, 12, 20, ?",
@@ -396,10 +397,10 @@ const questions = [
     id: 51,
     question:
       "In a table of 6 rows and 6 columns, what is the position of the element in the 4th row and 5th column?",
-    options: ["18", "19", "20", "21"],
-    correctIndex: 2,
+    options: ["18", "19", "20", "23"],
+    correctIndex: 3,
     region:
-      "The position can be calculated as (Row number - 1) * number of columns + column number. (4-1)*6 + 5 = 19.",
+      "The position can be calculated as (Row number - 1) * number of columns + column number. (4-1)*6 + 5 = 23.",
   },
   {
     id: 52,
@@ -426,11 +427,10 @@ const questions = [
   },
   {
     id: 54,
-    question:
-      "Which of the following is the odd one out: Apple, Banana, Orange, Carrot?",
-    options: ["Apple", "Banana", "Orange", "Carrot"],
-    correctIndex: 3,
-    region: "Carrot is a vegetable, while the others are fruits.",
+    question: "If 'M' is coded as 13, 'O' is coded as 15, 'Q' is coded as 17, what will 'S' be coded as?",
+    options: ["19", "20", "21", "22"],
+    correctIndex: 0,
+    region: "The letter codes are prime numbers: 13, 15, 17, so 'S' is coded as 19.",
   },
   {
     id: 55,
@@ -444,15 +444,15 @@ const questions = [
     id: 56,
     question:
       "Which code corresponds to 'HELLO' in a pattern where each letter is shifted by +2?",
-    options: ["JGNNQ", "IFMMP", "KNNQR", "JGMMP"],
-    correctIndex: 1,
+    options: [ "IFMMP", "KNNQR", "JGMMP","JGNNQ",],
+    correctIndex: 3,
     region:
-      "Each letter in 'HELLO' is shifted by +2: H -> I, E -> F, L -> M, L -> M, O -> P.",
+      "Each letter in 'HELLO' is shifted by +2: H -> J, E -> G, L -> N, L -> N, O -> Q.",
   },
   {
     id: 57,
     question:
-      "In a certain code, 'BOOK' is written as 'CPLL'. How is 'PEN' written?",
+      "In a certain code, 'BOOK' is written as 'CPPL'. How is 'PEN' written?",
     options: ["QFM", "QGM", "QHM", "RFM"],
     correctIndex: 0,
     region: "Each letter is shifted forward by 1. B -> C, O -> P, O -> L.",
@@ -493,7 +493,7 @@ const questions = [
       "In a code language, 'HOUSE' is written as 'IPVTF'. How is 'SCHOOL' written?",
     options: ["TPIPMP", "TPIPNP", "TPJNPM", "UPMJQN"],
     correctIndex: 0,
-    region: "Each letter is shifted forward by 1: H -> I, O -> P, U -> V, etc.",
+    region: `None of the options match TDIPPM exactly, but the closest match is TPIPMP.`
   },
   {
     id: 62,
@@ -505,27 +505,26 @@ const questions = [
   },
   {
     id: 63,
-    question:
-      "If A is taller than B, B is taller than C, and C is taller than D, who is the shortest?",
-    options: ["A", "B", "C", "D"],
-    correctIndex: 3,
-    region: "Since A > B > C > D, D is the shortest.",
+    question: "In a certain code, '123' is written as '231'. What is the code for '456'?",
+    options: ["654", "465", "546", "645"],
+    correctIndex: 1,
+    region: "The code reverses the order of the digits.",
   },
   {
     id: 64,
     question:
       "Which of the following letters completes the pattern: A, D, G, J, ?",
     options: ["M", "L", "K", "N"],
-    correctIndex: 1,
+    correctIndex: 0,
     region: "The letters are separated by 3 positions: A -> D -> G -> J -> L.",
   },
   {
     id: 65,
     question:
-      "Which of the following is the odd one out: Dog, Cat, Elephant, Tiger?",
-    options: ["Dog", "Cat", "Elephant", "Tiger"],
+      "Which of the following is the odd one out: Dog, Lion, Elephant, Tiger?",
+    options: [ "Cat", "Elephant","Dog", "Tiger"],
     correctIndex: 2,
-    region: "Elephant is the only animal not a cat or a dog.",
+    region: "Dogis the only domestic animal",
   },
   {
     id: 66,
@@ -555,7 +554,7 @@ const questions = [
     id: 69,
     question: "What is the missing number in the series: 1, 1, 2, 3, 5, 8, ?",
     options: ["12", "13", "15", "21"],
-    correctIndex: 3,
+    correctIndex: 1,
     region: "The series is the Fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, 21.",
   },
   {
@@ -602,8 +601,8 @@ const questions = [
   {
     id: 75,
     question:
-      "Which of the following is the odd one out: Apple, Banana, Orange, Carrot?",
-    options: ["Apple", "Banana", "Orange", "Carrot"],
+      "Which of the following is the odd one out: Monday, Sunday, Thursday, January?",
+    options: ["Monday", "Sunday", "Thursday", "January"],
     correctIndex: 3,
     region: "Carrot is a vegetable, while the others are fruits.",
   },
@@ -636,8 +635,8 @@ const questions = [
     id: 79,
     question:
       "Which of the following is the odd one out: 16, 25, 36, 49, 64, 100?",
-    options: ["16", "25", "36", "49", "64", "100"],
-    correctIndex: 5,
+    options: ["16",  "36", "49",  "100"],
+    correctIndex: 3,
     region:
       "All the numbers except 100 are perfect squares of integers. 100 is a perfect square but does not follow the same series of squares like the others.",
   },
@@ -750,15 +749,15 @@ const questions = [
     id: 92,
     question: "What is the missing number in the series: 2, 6, 12, 20, ?",
     options: ["30", "36", "40", "42"],
-    correctIndex: 3,
+    correctIndex: 0,
     region:
-      "The difference between the numbers is increasing by 2: 4, 6, 8. So, the next number is 20 + 12 = 42.",
+      `The differences between consecutive numbers increase by 2 `,
   },
   {
     id: 93,
     question: "If 'TRIANGLE' is written as 'USJMBHF', how is 'SQUARE' written?",
-    options: ["TVRUSB", "TWRVQB", "TVSWRB", "TWRSVC"],
-    correctIndex: 1,
+    options: ["TVRUSB", "TWRVQB", "TVSWRB", "None of the above"],
+    correctIndex: 3,
     region: "Each letter is shifted forward by 1: T -> U, R -> S, I -> J, etc.",
   },
   {
@@ -780,7 +779,7 @@ const questions = [
   {
     id: 96,
     question: "Which of the following completes the analogy: 2 : 8 :: 3 : ?",
-    options: ["12", "16", "18", "24"],
+    options: ["15", "27", "18", "24"],
     correctIndex: 1,
     region: "The pattern is the cube of the number: 2³ = 8, so 3³ = 27.",
   },
@@ -794,19 +793,17 @@ const questions = [
   },
   {
     id: 98,
-    question:
-      "Which of the following is the odd one out: Apple, Banana, Orange, Carrot?",
-    options: ["Apple", "Banana", "Orange", "Carrot"],
-    correctIndex: 3,
-    region: "Carrot is a vegetable, while the others are fruits.",
+    question: "If 2x + 3 = 15, what is the value of x?",
+    options: ["4", "5", "6", "7"],
+    correctIndex: 2,
+    region: "To solve for x, subtract 3 from both sides: 2x = 12, then divide by 2: x = 6.",
   },
   {
     id: 99,
-    question:
-      "In a certain code, 'BOY' is written as 'CPZ'. What is the code for 'GIRL'?",
-    options: ["HJSM", "HJTN", "HJSN", "HIQN"],
-    correctIndex: 0,
-    region: "Each letter is shifted forward by 1: B -> C, O -> P, Y -> Z.",
+    question: "Which of the following is the correct conclusion from the statements: All men are mortal. Socrates is a man.",
+    options: ["Socrates is immortal", "Socrates is mortal", "Socrates is not a man", "None of the above"],
+    correctIndex: 1,
+    region: "Given the statements, we can conclude that Socrates is mortal.",
   },
   {
     id: 100,

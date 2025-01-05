@@ -3,8 +3,11 @@ Here’s a summary of the SSC CHSL Tier I syllabus: BYJUS:
 General Intelligence/Reasoning: Logical reasoning, alphanumeric series,Ranking/Direction/Alphabet Test, Data Sufficiency,Coded Inequalities,Seating Arrangement,Puzzle,Tabulation,Syllogism,Space Orientation, Semantic Classification,Figural Series, Critical Thinking,Coding/Decoding.
 
 
-Quantitative Ability: Computation of Whole Number, Decimal and Fractions, Relationship between numbers.
-Profit & Loss,Simple Interest & Compound Interest & Surds & Indices,Work & Time,Time & Distance,Mensuration – Cylinder, Cone, Sphere,Data Interpretation,Ratio & Proportion, Percentage,Number Systems,Sequences & Series,Mixtures & Allegations,Permutation, Combination & Probability
+Quantitative Ability:
+ Computation of Whole Number, Decimal and Fractions, Relationship between numbers.
+Profit & Loss,Simple Interest & Compound Interest & Surds & Indices,Work & Time,Time & Distance,
+
+Mensuration – Cylinder, Cone, Sphere,Data Interpretation,Ratio & Proportion, Percentage,Number Systems,Sequences & Series,Mixtures & Allegations,Permutation, Combination & Probability
 
 English Language: Reading comprehension,Cloze Test,Para Jumbles,Synonyms/Antonyms/Homonyms,Fill in the Blanks,Multiple Meaning/Error Spotting,Paragraph Completion,One Word Substitution,Active/Passive Voice
 

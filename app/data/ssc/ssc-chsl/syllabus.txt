@@ -9,4 +9,6 @@ Profit & Loss,Simple Interest & Compound Interest & Surds & Indices,Work & Time,
 English Language: Reading comprehension,Cloze Test,Para Jumbles,Synonyms/Antonyms/Homonyms,Fill in the Blanks,Multiple Meaning/Error Spotting,Paragraph Completion,One Word Substitution,Active/Passive Voice
 
 
-General Awareness: History, geography, culture, economics, general policy, and scientific research.
+General Awareness: 
+History, geography, culture, 
+economics, general policy, and scientific research.

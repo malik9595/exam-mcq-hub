@@ -1,4 +1,5 @@
 const mcqs = [
+  // Check by one by one
   {
     id: 1,
     question: "Choose the synonym of 'Eloquent'.",
@@ -651,4 +652,4 @@ The error is the incorrect usage of "of" instead of "have".`,
     correctIndex: 0,
   },
 ];
-// Check by one by one
+

@@ -561,7 +561,7 @@
   {
     id: 73,
     question: "In which year did India launch its first satellite, Aryabhata?",
-    options: ["1972", "1980", "1969", "1992"],
+    options: ["1972", "1975", "1969", "1992"],
     correctIndex: 1,
   },
   {
@@ -717,13 +717,13 @@
     options: ["MUDRA", "PMAY", "PM Kisan", "Swachh Bharat Abhiyan"],
     correctIndex: 2,
   },
-  {
-    id: 95,
-    question:
-      "Which of the following is the first electronic payment system launched by the Indian Government?",
-    options: ["UPI", "IMPS", "Aadhaar Pay", "NEFT"],
-    correctIndex: 0,
-  },
+  // {
+  //   id: 95,
+  //   question:
+  //     "Which of the following is the first electronic payment system launched by the Indian Government?",
+  //   options: ["UPI", "IMPS", "Aadhaar Pay", "NEFT"],
+  //   correctIndex: 0,
+  // },
   {
     id: 96,
     question: "The Pradhan Mantri Jan Dhan Yojana was launched in which year?",

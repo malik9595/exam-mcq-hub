@@ -1,9 +1,9 @@
 // pages/index.js
 "use client";
 
-import SscNav from "@/app/components/mcqnav/Mcqnav";
-import Result from "@/app/components/result/ResultCard";
-import { mcqData } from "@/app/data/ssc";
+// import SscNav from "@/app/components/mcqnav/Mcqnav";
+// import Result from "@/app/components/result/ResultCard";
+// import { mcqData } from "@/app/data/ssc";
 import { useState } from "react";
 
 export default function Home() {

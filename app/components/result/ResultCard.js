@@ -3,7 +3,7 @@ import ScoreDetails from "./ScoreDetails";
 export default function ResultCard({ results, totalScore, submitted, retryFn,nextFn }) {
   if (!submitted) return null;
 
-  return (
+  return ( 
     <div
       className="result-card"
       style={{

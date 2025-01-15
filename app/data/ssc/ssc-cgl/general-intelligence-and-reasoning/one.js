@@ -1,6 +1,6 @@
-const mcqs = [
+export const sscCglIntelligence = [
     // check completed
-  {
+  {id: 1,
     question:
       "If it is true that 'all cats are animals', and 'some animals are mammals', what can be inferred about cats?",
     options: [

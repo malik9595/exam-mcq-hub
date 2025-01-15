@@ -1,0 +1,102 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+/* Main container styles */
+.main-conatiner {
+  font-family: "Roboto", sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Question group styles */
+.group {
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.group:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Group item styles */
+.group-item {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Added gap between radio button and text */
+}
+
+/* Customize radio button size and color */
+.group-item input[type="radio"] {
+  accent-color: #007bff; /* Blue color */
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Label and option text */
+.group-item label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.group-item label span {
+  margin-left: 10px; /* Add margin to text */
+}
+
+/* Submit button styles */
+.submitBtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.submitBtn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Correct and incorrect option colors */
+.group-item label span.correct {
+  color: #5cb338; /* Green */
+}
+
+.group-item label span.incorrect {
+  color: #e63946; /* Red */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .main-conatiner {
+    padding: 20px;
+  }
+
+  .submitBtn {
+    padding: 15px;
+    font-size: 16px;
+  }
+}

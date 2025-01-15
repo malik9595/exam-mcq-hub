@@ -1,4 +1,4 @@
-const sscCglQuestions = [
+export const sscCglAwarness = [
   // checked
   {
     id: 1,

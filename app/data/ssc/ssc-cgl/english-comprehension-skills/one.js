@@ -1,4 +1,4 @@
-const mcqs = [
+export const sscCglEnglish = [
   // Check by one by one
   {
     id: 1,

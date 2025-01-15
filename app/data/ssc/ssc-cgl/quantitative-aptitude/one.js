@@ -1,4 +1,4 @@
-const questions = [
+ export const sscCglQuantitative = [
   // check all
     {
       id: 1,

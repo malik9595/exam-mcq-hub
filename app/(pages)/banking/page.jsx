@@ -3,9 +3,9 @@
 import Header from "@/app/components/header/Header";
 import ResultCard from "@/app/components/result/ResultCard";
 import Question from "@/app/components/question/Question";
-import { mcqData } from "@/app/data/ssc";
+// import { mcqData } from "@/app/data/ssc";
 import { useState } from "react";
-import { waitForScroll } from "@/app/config";
+import { waitForScroll } from "@/app/config/waitforscroll";
 export default function Home() {
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -54,20 +54,26 @@ export default function Home() {
     await waitForScroll();
     setSubmitted(true);
   };
-const retryFn = ()=>{
-  alert("Retry Function")
-  setAnswers({})
-  setSubmitted(false)
-}
-const nextFn = ()=>{
-  alert("Next Function")
-}
+  const retryFn = () => {
+    alert("Retry Function");
+    setAnswers({});
+    setSubmitted(false);
+  };
+  const nextFn = () => {
+    alert("Next Function");
+  };
   const results = calculateResults();
 
   return (
     <div className="main-container">
       <Header />
-      <ResultCard results={results} totalScore={results.totalScore} submitted={submitted} retryFn={retryFn} nextFn={nextFn}/>
+      <ResultCard
+        results={results}
+        totalScore={results.totalScore}
+        submitted={submitted}
+        retryFn={retryFn}
+        nextFn={nextFn}
+      />
       {mcqData.map((q, index) => (
         <Question
           key={q.id}
@@ -86,7 +92,6 @@ const nextFn = ()=>{
       >
         Submit
       </button>
-      
     </div>
   );
 }
